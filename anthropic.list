@@ -1,4 +1,3 @@
-# Core domain
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
@@ -7,15 +6,12 @@ DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 
-# CDN
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
 
-# Certification
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
 
-# Telemetry
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN,browser-intake-us5-datadoghq.com
@@ -23,17 +19,14 @@ DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sift
 DOMAIN-KEYWORD,sentry
 
-# Third
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN,cdn.usefathom.com
 
-# IP / ASN
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
 
-# NTP
 DOMAIN-SUFFIX,ats1.e-timing.ne.jp
 DOMAIN-SUFFIX,clock.isc.org
 DOMAIN-SUFFIX,cn.pool.ntp.org
